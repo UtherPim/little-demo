@@ -107,3 +107,7 @@ function retSibling(e,n){
 	}
 	return e;
 }
+//检测类型
+function dataType(param) {
+	return Object.prototype.toString.call(param).slice(8,-1)
+}
